@@ -68,8 +68,53 @@ MainWindow::MainWindow(QWidget *parent)
     mainLayout->addWidget(resultLabel);
     mainLayout->addWidget(drawingArea);
 
-
+    connect(addButton, &QPushButton::clicked, this, &MainWindow::onAddClicked);
 
     setWindowTitle("Vector Editor");
     resize(600, 700);
+}
+
+void MainWindow::updateVectorsFromInputs()
+{
+    vector1->setX(vector1XSpin->value());
+    vector1->setY(vector1YSpin->value());
+    vector2->setX(vector2XSpin->value());
+    vector2->setY(vector2YSpin->value());
+}
+
+void MainWindow::onAddClicked()
+{
+    updateVectorsFromInputs();
+
+    if (methodCombo->currentIndex() == 0)
+    {
+        // Классический метод - создаём новый вектор
+        Vector res = vector1->addClassic(*vector2);
+        vectorResult = smart_ptr<Vector>(new Vector(res.getX(), res.getY()));
+    } else
+    {
+        // Модификация vector1
+        vector1->addModify(*vector2);
+        vectorResult = smart_ptr<Vector>(new Vector(vector1->getX(), vector1->getY()));
+
+        // Отобразим актуальные значения vector1 в спинах
+        vector1XSpin->setValue(static_cast<int>(vector1->getX()));
+        vector1YSpin->setValue(static_cast<int>(vector1->getY()));
+    }
+
+    // Обновим подпись с результатом
+    if (vectorResult)
+    {
+        resultLabel->setText(QString("Result: (%1, %2)")
+                                 .arg(vectorResult->getX())
+                                 .arg(vectorResult->getY()));
+    }
+
+    // Передаём для отрисовки все три вектора: исходные и результат
+    std::vector<smart_ptr<Vector>> drawVecs;
+    drawVecs.push_back(smart_ptr<Vector>(new Vector(vector1->getX(), vector1->getY())));
+    drawVecs.push_back(smart_ptr<Vector>(new Vector(vector2->getX(), vector2->getY())));
+    drawVecs.push_back(vectorResult);
+
+    drawingArea->setVectors(drawVecs);
 }

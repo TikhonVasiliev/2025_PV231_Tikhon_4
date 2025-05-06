@@ -1,7 +1,8 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 
-class Vector {
+class Vector
+{
 private:
     double x;
     double y;
@@ -17,12 +18,14 @@ public:
     void setY(double val) { y = val; }
 
     // Метод 1: Классическое сложение - возвращает новый вектор
-    Vector addClassic(const Vector& other) const {
+    Vector addClassic(const Vector& other) const
+    {
         return Vector(x + other.x, y + other.y);
     }
 
     // Метод 2: Модификация текущего вектора - прибавляет другой к текущему
-    void addModify(const Vector& other) {
+    void addModify(const Vector& other)
+    {
         x += other.x;
         y += other.y;
     }

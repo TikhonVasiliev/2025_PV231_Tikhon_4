@@ -19,8 +19,10 @@ void DrawingArea::paintEvent(QPaintEvent* event)
     // Масштаб для наглядности векторов
     const double scale = 20.0;
 
-    for (const auto& sptrVec : vectors) {
-        if (sptrVec) {
+    for (const auto& sptrVec : vectors)
+    {
+        if (sptrVec)
+        {
             const Vector& vec = *sptrVec;
             QPointF endPoint(vec.getX() * scale, -vec.getY() * scale);
 

@@ -5,7 +5,8 @@
 #include "vector.h"
 #include "smart_ptr.h"
 
-class DrawingArea : public QWidget {
+class DrawingArea : public QWidget
+{
     Q_OBJECT
 
 private:
@@ -18,7 +19,8 @@ public:
         setMinimumSize(400, 400);
     }
 
-    void setVectors(const std::vector<smart_ptr<Vector>>& vecs) {
+    void setVectors(const std::vector<smart_ptr<Vector>>& vecs)
+    {
         vectors = vecs;
         update();
     }

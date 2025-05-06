@@ -2,15 +2,14 @@
 #define SMART_PTR_H
 
 template <typename T>
-class smart_ptr {
+class smart_ptr
+{
     T* obj;
 public:
     explicit smart_ptr(T* obj = nullptr)
         : obj(obj) { }
 
-    ~smart_ptr() {
-        delete obj;
-    }
+    ~smart_ptr() { delete obj; }
 
     // Конструктор копирования
     smart_ptr(const smart_ptr& other) = default;

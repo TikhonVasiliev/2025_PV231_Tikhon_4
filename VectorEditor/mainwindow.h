@@ -34,6 +34,9 @@ private:
     smart_ptr<Vector> vector1;
     smart_ptr<Vector> vector2;
     smart_ptr<Vector> vectorResult;
+private slots:
+    void onAddClicked();
+    void updateVectorsFromInputs();
 };
 
 #endif // MAINWINDOW_H
