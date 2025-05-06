@@ -39,6 +39,7 @@ else()
         add_executable(VectorEditor
             ${PROJECT_SOURCES}
             smart_ptr.h
+            vector.h
         )
     endif()
 endif()

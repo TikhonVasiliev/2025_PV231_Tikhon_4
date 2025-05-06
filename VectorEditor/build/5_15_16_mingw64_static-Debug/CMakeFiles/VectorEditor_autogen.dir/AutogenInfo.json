@@ -155,6 +155,12 @@
 			"MU",
 			"EWIEGA46WW/moc_smart_ptr.cpp",
 			null
+		],
+		[
+			"C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/vector.h",
+			"MU",
+			"EWIEGA46WW/moc_vector.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
