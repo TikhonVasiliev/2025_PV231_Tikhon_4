@@ -1,0 +1,9 @@
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/VectorEditor.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/edit_cache.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/rebuild_cache.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/list_install_components.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/install.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/install/local.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/install/strip.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/VectorEditor_autogen_timestamp_deps.dir
+C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/VectorEditor_autogen.dir
