@@ -2,12 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
-QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
-QT_END_NAMESPACE
+#include <QSpinBox>
+#include <QPushButton>
+#include <QComboBox>
+#include <QLabel>
+#include "drawingarea.h"
+#include "vector.h"
+#include "smart_ptr.h"
 
 class MainWindow : public QMainWindow
 {
@@ -15,9 +16,24 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
+    QSpinBox* vector1XSpin;
+    QSpinBox* vector1YSpin;
+    QSpinBox* vector2XSpin;
+    QSpinBox* vector2YSpin;
+
+    QComboBox* methodCombo;
+    QPushButton* addButton;
+
+    QLabel* resultLabel;
+
+    DrawingArea* drawingArea;
+
+    // Векторы в умных указателях
+    smart_ptr<Vector> vector1;
+    smart_ptr<Vector> vector2;
+    smart_ptr<Vector> vectorResult;
 };
+
 #endif // MAINWINDOW_H

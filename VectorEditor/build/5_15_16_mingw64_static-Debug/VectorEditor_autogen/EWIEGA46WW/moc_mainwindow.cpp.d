@@ -1,5 +1,8 @@
 C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/VectorEditor_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/mainwindow.h \
   C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/VectorEditor_autogen/moc_predefs.h \
+  C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/drawingarea.h \
+  C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/smart_ptr.h \
+  C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/vector.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -207,6 +210,7 @@ C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/msys64/mingw64/qt5-static/include/QtCore/qabstractitemmodel.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qalgorithms.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qarraydata.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qatomic.h \
@@ -230,7 +234,9 @@ C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-
   C:/msys64/mingw64/qt5-static/include/QtCore/qiterator.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qline.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qlist.h \
+  C:/msys64/mingw64/qt5-static/include/QtCore/qlocale.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qlogging.h \
+  C:/msys64/mingw64/qt5-static/include/QtCore/qmap.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qmargins.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qmetatype.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qnamespace.h \
@@ -245,6 +251,7 @@ C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-
   C:/msys64/mingw64/qt5-static/include/QtCore/qrect.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qrefcount.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qregexp.h \
+  C:/msys64/mingw64/qt5-static/include/QtCore/qregularexpression.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qscopedpointer.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qshareddata.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qsharedpointer.h \
@@ -260,6 +267,7 @@ C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-
   C:/msys64/mingw64/qt5-static/include/QtCore/qsystemdetection.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qtcore-config.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qtypeinfo.h \
+  C:/msys64/mingw64/qt5-static/include/QtCore/qvariant.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qvarlengtharray.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qvector.h \
   C:/msys64/mingw64/qt5-static/include/QtCore/qversiontagging.h \
@@ -284,11 +292,31 @@ C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-
   C:/msys64/mingw64/qt5-static/include/QtGui/qtgui-config.h \
   C:/msys64/mingw64/qt5-static/include/QtGui/qtguiglobal.h \
   C:/msys64/mingw64/qt5-static/include/QtGui/qtransform.h \
+  C:/msys64/mingw64/qt5-static/include/QtGui/qvalidator.h \
   C:/msys64/mingw64/qt5-static/include/QtGui/qwindowdefs.h \
   C:/msys64/mingw64/qt5-static/include/QtGui/qwindowdefs_win.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/QComboBox \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/QLabel \
   C:/msys64/mingw64/qt5-static/include/QtWidgets/QMainWindow \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/QPushButton \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/QSpinBox \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/QWidget \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qabstractbutton.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qabstractitemdelegate.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qabstractslider.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qabstractspinbox.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qcombobox.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qframe.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qlabel.h \
   C:/msys64/mingw64/qt5-static/include/QtWidgets/qmainwindow.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qpushbutton.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qrubberband.h \
   C:/msys64/mingw64/qt5-static/include/QtWidgets/qsizepolicy.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qslider.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qspinbox.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qstyle.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qstyleoption.h \
+  C:/msys64/mingw64/qt5-static/include/QtWidgets/qtabbar.h \
   C:/msys64/mingw64/qt5-static/include/QtWidgets/qtabwidget.h \
   C:/msys64/mingw64/qt5-static/include/QtWidgets/qtwidgets-config.h \
   C:/msys64/mingw64/qt5-static/include/QtWidgets/qtwidgetsglobal.h \

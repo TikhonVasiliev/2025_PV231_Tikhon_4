@@ -36,3 +36,15 @@
 409	1632	7682411417935967	CMakeFiles/VectorEditor.dir/mainwindow.cpp.obj	a896bb032e4eb300
 412	1733	7682411417965897	CMakeFiles/VectorEditor.dir/drawingarea.cpp.obj	1cbbce176abcc311
 1733	3739	7682411431170585	VectorEditor.exe	8aef70401c081cd5
+10	387	7682422121784524	VectorEditor_autogen/timestamp	988f67b52f4d06a2
+10	387	7682422121784524	VectorEditor_autogen/mocs_compilation.cpp	988f67b52f4d06a2
+10	387	7682422121784524	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/VectorEditor_autogen/timestamp	988f67b52f4d06a2
+10	387	7682422121784524	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/VectorEditor_autogen/mocs_compilation.cpp	988f67b52f4d06a2
+402	1686	7682422122293194	CMakeFiles/VectorEditor.dir/main.cpp.obj	f56916b8eb230fbc
+388	1711	7682422122153577	CMakeFiles/VectorEditor.dir/VectorEditor_autogen/mocs_compilation.cpp.obj	38be478b6a5b2cff
+23	126	7682422565298241	VectorEditor_autogen/timestamp	988f67b52f4d06a2
+23	126	7682422565298241	VectorEditor_autogen/mocs_compilation.cpp	988f67b52f4d06a2
+23	126	7682422565298241	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/VectorEditor_autogen/timestamp	988f67b52f4d06a2
+23	126	7682422565298241	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/VectorEditor_autogen/mocs_compilation.cpp	988f67b52f4d06a2
+126	1506	7682422566336610	CMakeFiles/VectorEditor.dir/mainwindow.cpp.obj	a896bb032e4eb300
+1506	3426	7682422580137791	VectorEditor.exe	8aef70401c081cd5
