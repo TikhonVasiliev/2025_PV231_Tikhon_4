@@ -40,6 +40,8 @@ else()
             ${PROJECT_SOURCES}
             smart_ptr.h
             vector.h
+            drawingarea.h
+            drawingarea.cpp
         )
     endif()
 endif()

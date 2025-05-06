@@ -5,6 +5,8 @@ VectorEditor_autogen/timestamp: \
 	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/4.0.1/CMakeRCCompiler.cmake \
 	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/4.0.1/CMakeSystem.cmake \
 	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/VectorEditor_autogen/moc_predefs.h \
+	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/drawingarea.cpp \
+	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/drawingarea.h \
 	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/main.cpp \
 	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/mainwindow.cpp \
 	C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/mainwindow.h \
@@ -297,6 +299,7 @@ VectorEditor_autogen/timestamp: \
 	C:/msys64/mingw64/qt5-static/include/QtGui/qwindowdefs.h \
 	C:/msys64/mingw64/qt5-static/include/QtGui/qwindowdefs_win.h \
 	C:/msys64/mingw64/qt5-static/include/QtWidgets/QMainWindow \
+	C:/msys64/mingw64/qt5-static/include/QtWidgets/QWidget \
 	C:/msys64/mingw64/qt5-static/include/QtWidgets/qmainwindow.h \
 	C:/msys64/mingw64/qt5-static/include/QtWidgets/qsizepolicy.h \
 	C:/msys64/mingw64/qt5-static/include/QtWidgets/qtabwidget.h \

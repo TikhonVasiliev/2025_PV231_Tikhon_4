@@ -145,6 +145,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/drawingarea.h",
+			"MU",
+			"EWIEGA46WW/moc_drawingarea.cpp",
+			null
+		],
+		[
 			"C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -232,6 +238,11 @@
 	"SETTINGS_FILE" : "C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/build/5_15_16_mingw64_static-Debug/CMakeFiles/VectorEditor_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/drawingarea.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/QtProject/Reps/2025_PV231_Tikhon_4/VectorEditor/main.cpp",
 			"MU",
